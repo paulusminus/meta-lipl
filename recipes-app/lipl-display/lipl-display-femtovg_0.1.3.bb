@@ -8,7 +8,7 @@ inherit cargo cargo-update-recipe-crates
 
 # 2. Point to the remote GitHub repository
 SRC_URI = "git://github.com/paulusminus/lipl-display-femtovg.git;protocol=https;branch=main"
-SRCREV = "ac93f6da3b328cd66e3fd5b636133a3b2db18b54"
+SRCREV = "83ce9f604f39bc8828aed886a92cbdbf044871be"
 
 # 3. Include the auto-generated crate dependencies list
 include ${BPN}-crates.inc
